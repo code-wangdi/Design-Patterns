@@ -1,7 +1,9 @@
 package com.devil.eventbus.deadevent;
 
-import com.devil.eventbus.listener.TestEvent;
 import com.google.common.eventbus.EventBus;
+
+import com.devil.eventbus.listener.TestEvent;
+
 import org.junit.Test;
 
 /**

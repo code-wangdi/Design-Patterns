@@ -1,6 +1,7 @@
 package com.devil.eventbus.listener;
 
 import com.google.common.eventbus.EventBus;
+
 import org.junit.Test;
 
 /**
