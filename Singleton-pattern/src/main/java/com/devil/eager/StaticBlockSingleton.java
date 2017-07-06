@@ -6,17 +6,17 @@ package com.devil.eager;
  */
 public class StaticBlockSingleton {
 
-    private static StaticBlockSingleton INSTANCE;
+    private static StaticBlockSingleton instance;
 
     static {
-        INSTANCE = new StaticBlockSingleton();
+        instance = new StaticBlockSingleton();
     }
 
     private StaticBlockSingleton() {
     }
 
     public static StaticBlockSingleton getInstance(){
-        return INSTANCE;
+        return instance;
     }
 }
 

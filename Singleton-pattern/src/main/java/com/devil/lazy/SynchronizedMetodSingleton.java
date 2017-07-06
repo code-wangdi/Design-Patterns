@@ -6,15 +6,15 @@ package com.devil.lazy;
  */
 public class SynchronizedMetodSingleton {
 
-    private static SynchronizedMetodSingleton INSTANCE;
+    private static SynchronizedMetodSingleton instance;
 
     private SynchronizedMetodSingleton() {
     }
 
     public static synchronized SynchronizedMetodSingleton getInstance(){
-        if (null == INSTANCE) {
-            INSTANCE = new SynchronizedMetodSingleton();
+        if (null == instance) {
+            instance = new SynchronizedMetodSingleton();
         }
-        return INSTANCE;
+        return instance;
     }
 }
